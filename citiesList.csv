@@ -1,0 +1,457 @@
+featureID,City Name,Needs a unique featureID,Route featureID
+HTT_101,Cleveland Downtown,true,HTT_101
+HTT_101,South Bend,true,HTT_101
+HTT_101,Cleveland Hopkins Airport,true,HTT_101
+HTT_101,Toledo,true,HTT_101
+HTT_101,Chicago Downtown,true,HTT_101
+HTT_205,Bradenton,,HTT_121
+HTT_204,St. Petersburg,,HTT_121
+HTT_118,Toledo Airport,true,HTT_118
+HTT_118,Pittsburgh,true,HTT_118
+HTT_118,South Bend,true,HTT_118
+HTT_118,Chicago Downtown,true,HTT_118
+HTT_118,Cleveland Hopkins Airport,true,HTT_118
+HTT_118,Cleveland Downtown,true,HTT_118
+HTT_118,North Lima,true,HTT_118
+HTT_105,Vijaywada,true,HTT_105
+HTT_105,Amaravati,true,HTT_105
+HTT_206,St. Petersburg,,HTT_122
+HTT_202,Tampa,,HTT_122
+HTT_214,Miami,,HTT_122
+HTT_207,Bradenton,,HTT_122
+HTT_209,Venice,,HTT_122
+HTT_212,Naples,,HTT_122
+HTT_213,Fort Lauderdale,,HTT_122
+HTT_208,Sarasota,,HTT_122
+HTT_211,Fort Myers,,HTT_122
+HTT_210,Port Charlotte,,HTT_122
+HTT_108,Gwangju,true,HTT_108
+HTT_108,Ulsan,true,HTT_108
+HTT_108,Incheon,true,HTT_108
+HTT_108,Busan,true,HTT_108
+HTT_108,Incheon,true,HTT_108
+HTT_108,Seoul,true,HTT_108
+HTT_108,Daegu,true,HTT_108
+HTT_119,Pittsburgh Airport,true,HTT_119
+HTT_119,Youngstown Downtown,true,HTT_119
+HTT_119,Toledo Airport,true,HTT_119
+HTT_119,Cleveland Downtown,true,HTT_119
+HTT_119,Chicago Downtown,true,HTT_119
+HTT_119,Pittsburgh,true,HTT_119
+HTT_119,Cleveland Hopkins Airport,true,HTT_119
+HTT_110,Sao Paulo-Office,true,HTT_110
+HTT_110,Ukraine,true,HTT_110
+HTT_103,Bratislava,true,HTT_103
+HTT_201,Tampa,,HTT_120
+HTT_203,St. Petersburg,,HTT_120
+HTT_114,Los Angeles-Global HQ,true,HTT_114
+HTT_104,Abu Dhabi,true,HTT_104
+HTT_104,Al Ain,true,HTT_104
+HTT_116,Barcelona-Office,true,HTT_116
+HTT_113,Al Ghadeer-Commercial System,true,HTT_113
+HTT_107,Tongren,true,HTT_107
+HTT_102,Toulouse-Testing & Certification Center,true,HTT_102
+HTT_117,Czech Republic,true,HTT_117
+HTT_111,Office-Dubai,true,HTT_111
+HTT_115,"Hamburg-w/ HHLA, Port of Hamburg",true,HTT_115
+HTT_106,Jakarta,true,HTT_106
+VHO_127,Riyadh,,HL1_127
+VHO_127,Riya,,HL1_127
+VHO_127,Mecca,,HL1_127
+VHO_127,Dubai,,HL1_127
+VHO_127,Dubai,,HL1_127
+VHO_127,Red Sea Project,,HL1_127
+VHO_127,Manama,,HL1_127
+VHO_127,Kuwait City,,HL1_127
+VHO_127,Jeddah,,HL1_127
+VHO_127,Muscat,,HL1_127
+VHO_127,Dammam,,HL1_127
+VHO_127,Qiddah,,HL1_127
+VHO_127,Abu Dhabi,,HL1_127
+VHO_127,Neom,,HL1_127
+VHO_119,Manchester,,HL1_119
+VHO_119,Glasgow,,HL1_119
+VHO_119,Liverpool,,HL1_119
+VHO_119,Leeds,,HL1_119
+VHO_119,Newcastle,,HL1_119
+VHO_119,Edinburgh,,HL1_119
+VHO_128,Al Maktoum Airport,,HL1_128
+VHO_128,Khalifa Port,,HL1_128
+VHO_128,Jebel Ali Port,,HL1_128
+VHO_128,Capital City,,HL1_128
+VHO_128,Dubai Marina,,HL1_128
+VHO_128,Burj Khalifa,,HL1_128
+VHO_128,Al Maktoum Airport 2,,HL1_128
+VHO_128,Abu Dhabi International Airport (AUH),,HL1_128
+VHO_128,Saadiyat Cultural Centre,,HL1_128
+VHO_128,Dubai Airport,,HL1_128
+VHO_128,Zayed Port,,HL1_128
+VHO_128,Etihad Towers,,HL1_128
+VHO_126,Manama,,HL1_126
+VHO_126,Riyadh,,HL1_126
+VHO_126,Muscat,,HL1_126
+VHO_126,Kuwait City,,HL1_126
+VHO_126,Doha,,HL1_126
+VHO_126,Mecca,,HL1_126
+VHO_126,Jeddah,,HL1_126
+VHO_126,Dubai,,HL1_126
+VHO_126,Abu Dhabi,,HL1_126
+VHO_113,Ottawa,,HL1_113
+VHO_113,Montreal,,HL1_113
+VHO_113,Toronto,,HL1_113
+VHO_134,Chittoor,,HL1_134
+VHO_134,Kanchipuram,,HL1_134
+VHO_134,Bengaluru,,HL1_134
+VHO_134,Palamaner,,HL1_134
+VHO_134,Chennai,,HL1_134
+VHO_134,Kolar,,HL1_134
+VHO_110,Chicago,,HL1_110
+VHO_110,Fort Wayne,,HL1_110
+VHO_110,Marysville,,HL1_110
+VHO_110,Columbus,,HL1_110
+VHO_110,Lima,,HL1_110
+VHO_110,Pittsburgh,,HL1_110
+VHO_107,Pueblo,,HL1_107
+VHO_107,Denver,,HL1_107
+VHO_107,"Cheyenne, WY",,HL1_107
+VHO_107,Houston,,HL1_107
+VHO_107,DFW,,HL1_107
+VHO_107,Fort Collins,,HL1_107
+VHO_107,Houston Port,,HL1_107
+VHO_107,Amarillo,,HL1_107
+VHO_107,"Colorado Springs, CO",,HL1_107
+VHO_132,Tumakuru,,HL1_132
+VHO_139,BLR Airport,,HL1_132
+VHO_132,Pune,,HL1_132
+VHO_132,Hubballi,,HL1_132
+VHO_132,Mumbai,,HL1_132
+VHO_132,Chennai,,HL1_132
+VHO_132,Hosur,,HL1_132
+VHO_132,Bengaluru,,HL1_132
+VHO_132,Vellore,,HL1_132
+VHO_132,Sriperumbudur,,HL1_132
+VHO_132,Kolhapur,,HL1_132
+VHO_130,Mumbai,,HL1_130
+VHO_130,Navi Mumbai Intl,,HL1_130
+VHO_130,Pune,,HL1_130
+VHO_106,Fort Collins,,HL1_106
+VHO_106,Greeley,,HL1_106
+VHO_106,"Cheyenne, WY",,HL1_106
+VHO_106,"Pueblo, CO",,HL1_106
+VHO_106,Denver,,HL1_106
+VHO_106,Colorado Springs,,HL1_106
+VHO_106,Longmont,,HL1_106
+VHO_106,Loveland,,HL1_106
+VHO_106,Monument,,HL1_106
+VHO_106,Boulder,,HL1_106
+VHO_106,Westminster,,HL1_106
+VHO_106,Castle Rock,,HL1_106
+VHO_106,Centennial,,HL1_106
+VHO_122,Nuremberg,,HL1_122
+VHO_122,Frankfurt,,HL1_122
+VHO_122,Cologne,,HL1_122
+VHO_122,Stuttgart,,HL1_122
+VHO_122,Munich,,HL1_122
+VHO_122,Berlin,,HL1_122
+VHO_122,Hamburg,,HL1_122
+VHO_122,Leipzig,,HL1_122
+VHO_131,Hyderbad,,HL1_131
+VHO_131,Kolkata,,HL1_131
+VHO_131,Mangaluru,,HL1_131
+VHO_131,Mumbai,,HL1_131
+VHO_131,Chennai,,HL1_131
+VHO_129,Indore,,HL1_129
+VHO_129,New Delhi,,HL1_129
+VHO_129,Mumbai,,HL1_129
+VHO_129,Jaipur,,HL1_129
+VHO_103,Tijuana,,HL1_103
+VHO_103,Irvine,,HL1_103
+VHO_103,Los Angeles,,HL1_103
+VHO_103,San Diego,,HL1_103
+VHO_103,Long Beach,,HL1_103
+VHO_103,Solana Beach / North County,,HL1_103
+VHO_103,Otay Mesa,,HL1_103
+VHO_103,Ensenada,,HL1_103
+VHO_135,Kansas City,,HL1_135
+VHO_135,Columbia,,HL1_135
+VHO_135,St. Louis,,HL1_135
+VHO_123,Skierniewice,,HL1_123
+VHO_123,Warsaw,,HL1_123
+VHO_123,Lodz,,HL1_123
+VHO_123,Wroclaw,,HL1_123
+VHO_123,Sieradz,,HL1_123
+VHO_123,Olesnica,,HL1_123
+VHO_109,,,HL1_109
+VHO_109,Kansas City,,HL1_109
+VHO_109,Columbia,,HL1_109
+VHO_109,St. Louis,,HL1_109
+VHO_109,,,HL1_109
+VHO_109,,,HL1_109
+VHO_109,,,HL1_109
+VHO_109,,,HL1_109
+VHO_109,,,HL1_109
+VHO_109,,,HL1_109
+VHO_118,Bristol,,HL1_118
+VHO_118,Nottingham,,HL1_118
+VHO_118,Edinburgh,,HL1_118
+VHO_118,London,,HL1_118
+VHO_118,Cambridge,,HL1_118
+VHO_118,Newcastle,,HL1_118
+VHO_118,Cardiff,,HL1_118
+VHO_118,Glasgow,,HL1_118
+VHO_118,Oxford,,HL1_118
+VHO_136,RDU Airport,,HL1_136
+VHO_136,RTP,,HL1_136
+VHO_136,Durham,,HL1_136
+VHO_136,Chapel Hill,,HL1_136
+VHO_136,Raleigh,,HL1_136
+VHO_105,Greeley,,HL1_105
+VHO_105,"Cheyenne, WY",,HL1_105
+VHO_105,Vail,,HL1_105
+VHO_105,Pueblo,,HL1_105
+VHO_105,Denver INTL,,HL1_105
+VHO_105,Colorado Springs,,HL1_105
+VHO_105,DTC,,HL1_105
+VHO_105,Silverthorne/ Dillion,,HL1_105
+VHO_105,West Metro,,HL1_105
+VHO_105,Fort Collins,,HL1_105
+VHO_105,Longmont/Boulder,,HL1_105
+VHO_105,I-76,,HL1_105
+VHO_102,Reno,,HL1_102
+VHO_102,Las Vegas,,HL1_102
+VHO_125,Tallinn,,HL1_125
+VHO_125,Helsinki,,HL1_125
+VHO_125,Muuga,,HL1_125
+VHO_116,Bobadilla Research Center,,HL1_116
+VHO_121,Eindhoven,,HL1_121
+VHO_121,Den Bosch,,HL1_121
+VHO_121,Arnhem,,HL1_121
+VHO_121,Rotterdam,,HL1_121
+VHO_121,Amsterdam,,HL1_121
+VHO_121,Lelystad,,HL1_121
+VHO_115,Madrid,,HL1_115
+VHO_115,Alegciras,,HL1_115
+VHO_115,Tangier,,HL1_115
+VHO_137,Dallas/Fort Worth/Arlington,,HL1_137
+VHO_137,Laredo,,HL1_137
+VHO_137,Austin,,HL1_137
+VHO_137,San Antonio,,HL1_137
+VHO_137,Waco,,HL1_137
+VHO_137,Temple-Killeen,,HL1_137
+VHO_112,Providence,,HL1_112
+VHO_112,Fall River,,HL1_112
+VHO_112,Boston,,HL1_112
+VHO_112,Somerset,,HL1_112
+VHO_120,Edinburgh,,HL1_120
+VHO_120,Birmingham,,HL1_120
+VHO_120,London,,HL1_120
+VHO_120,Manchester,,HL1_120
+VHO_108,Waco,,HL1_108
+VHO_108,Austin,,HL1_108
+VHO_108,San Antonio,,HL1_108
+VHO_108,Temple-Killeen,,HL1_108
+VHO_108,Laredo,,HL1_108
+VHO_108,Dallas,,HL1_108
+VHO_108,Houston Port,,HL1_108
+VHO_108,Houston,,HL1_108
+VHO_108,DFW,,HL1_108
+VHO_114,Leon,,HL1_114
+VHO_114,Mexico City,,HL1_114
+VHO_114,Guadalajara,,HL1_114
+VHO_114,Queretaro,,HL1_114
+VHO_133,Coimbatore,,HL1_133
+VHO_133,Thiruvananthapuram,,HL1_133
+VHO_133,Bengaluru,,HL1_133
+VHO_133,Kochi,,HL1_133
+VHO_117,Porto Vecchio Bonifacio,,HL1_117
+VHO_117,Cagliari,,HL1_117
+VHO_117,Aleria,,HL1_117
+VHO_117,Oristano,,HL1_117
+VHO_117,Bastia,,HL1_117
+VHO_117,Sassari,,HL1_117
+VHO_104,HyperLoop Test Site,,HL1_104
+VHO_101,Olympia,,HL1_101
+VHO_101,Eugene,,HL1_101
+VHO_101,Portland,,HL1_101
+VHO_101,Seattle,,HL1_101
+VHO_124,Helsinki,,HL1_124
+VHO_124,Salo,,HL1_124
+VHO_124,Turku,,HL1_124
+VHO_124,Norrtälje,,HL1_124
+VHO_124,Uppsala,,HL1_124
+VHO_124,Lohja,,HL1_124
+VHO_124,Arlanda Airport (ARN),,HL1_124
+VHO_124,Åland Islands,,HL1_124
+VHO_124,Helsinki Airport (HEL),,HL1_124
+VHO_124,Stockholm,,HL1_124
+VHO_111,Orlando,,HL1_111
+VHO_111,Miami,,HL1_111
+VHO_138,HL1_HQ_HyperLoop One,,HL1_138
+STML_205,Tangier,,STML_103
+STML_204,Algeciras,,STML_103
+STML_201,Madrid,,STML_102
+STML_203,Algeciras,,STML_102
+STML_202,Seville,,STML_102
+STML_207,Casablanca,,STML_102
+STML_206,Tangier,,STML_102
+STML_208,Marrakesh,,STML_102
+HP_105,Frankfurt,,HP_102
+HP_106,Berlin,,HP_102
+HP_123,Vilnius,,HP_102
+HP_119,Warsaw,,HP_102
+HP_104,Paris,,HP_102
+HP_111,Wroclaw,,HP_102
+HP_107,Gdansk,,HP_102
+HP_121,Lviv,,HP_102
+HP_113,Katowice,,HP_102
+HP_122,Kyiv,,HP_102
+HP_112,Prague,,HP_102
+HP_120,Budapest,,HP_102
+HP_114,Kraków,,HP_102
+SP_103,Zurich,,SP_102
+SP_104,Geneva,,SP_102
+HP_117,Łódź,,HP_103
+HP_110,Wroclaw,,HP_103
+HP_118,Warsaw,,HP_103
+HP_109,Berlin,,HP_103
+HP_115,Kraków,,HP_103
+HP_108,Poznań,,HP_103
+HP_116,Łódź,,HP_103
+TUM_101,TUM Hyperloop HQ,,undefined
+EL_101,Euroloop HQ,,undefined
+rL_101,rLoop HQ,,undefined
+SP_101,SwissPod HQ,,undefined
+HP_101,Hyper Poland HQ,,undefined
+TP_109,Newcastle,true,TP_109
+TP_109,Oxford,true,TP_109
+TP_109,Glasgow,true,TP_109
+TP_109,Edinburgh,true,TP_109
+TP_109,London,true,TP_109
+TP_109,Birmingham,true,TP_109
+TP_109,Manchester,true,TP_109
+TP_106,Montréal,true,TP_106
+TP_106,Ottawa,true,TP_106
+TP_106,Boston,true,TP_106
+TP_106,Toronto,true,TP_106
+TP_112,Hua Hin,true,TP_112
+TP_112,Phitsanulok,true,TP_112
+TP_112,Chiang Mai,true,TP_112
+TP_112,Bangkok,true,TP_112
+TP_112,Nakhon Sawan,true,TP_112
+TP_112,Surat Thani,true,TP_112
+TP_112,Phuket,true,TP_112
+TP_101,Portland,true,TP_101
+TP_101,Seattle,true,TP_101
+TP_101,Vancouver,true,TP_101
+TP_101,San Fransico,true,TP_101
+TP_111,Dammam,true,TP_111
+TP_111,Riyadh,true,TP_111
+TP_111,Jeddah,true,TP_111
+TP_111,Mecca,true,TP_111
+TP_110,Frankfurt,true,TP_110
+TP_110,Bordeaux,true,TP_110
+TP_110,Paris,true,TP_110
+TP_110,Toulouse,true,TP_110
+TP_110,Montpellier,true,TP_110
+TP_114,Sydney,true,TP_114
+TP_114,Brisbane,true,TP_114
+TP_114,Melbourne,true,TP_114
+TP_114,Adelaide,true,TP_114
+TP_114,Canberra,true,TP_114
+TP_105,Chicago,true,TP_105
+TP_105,Toronto,true,TP_105
+TP_105,Detroit,true,TP_105
+TP_107,New York,true,TP_107
+TP_107,Washinton DC,true,TP_107
+TP_107,Boston,true,TP_107
+TP_107,Philadelphia,true,TP_107
+TP_113,Surat Thani,true,TP_113
+TP_113,KL,true,TP_113
+TP_108,Miami,true,TP_108
+TP_108,Orlando,true,TP_108
+TP_104,DFW,true,TP_104
+TP_104,Houston,true,TP_104
+TP_104,Austin,true,TP_104
+TP_104,San Antonio,true,TP_104
+TP_115,Limoges Research Centre,true,TP_115
+TP_116,Transpod HQ,true,TP_116
+TP_118,"Office-Limoges, France",true,TP_118
+TP_102,Calgary,true,TP_102
+TP_102,Edmonton,true,TP_102
+TP_103,Mexico City,true,TP_103
+TP_103,Guadalajara,true,TP_103
+TP_103,Leon,true,TP_103
+TP_117,"Office-Bari, Italy",true,TP_117
+BOR_105,Lawndale,true,BOR_105
+BOR_105,Sherman Oaks,true,BOR_105
+BOR_105,Union Station,true,BOR_105
+BOR_105,Convention Center / Staples Center,true,BOR_105
+BOR_105,Hawthorne,true,BOR_105
+BOR_105,UCLA / Westwood,true,BOR_105
+BOR_105,The Getty,true,BOR_105
+BOR_105,Culver City,true,BOR_105
+BOR_105,LA Stadium,true,BOR_105
+BOR_105,South LA,true,BOR_105
+BOR_105,Echo Park / Silver Lake,true,BOR_105
+BOR_105,Carson,true,BOR_105
+BOR_105,Dodger Station,true,BOR_105
+BOR_105,Venice / Marina,true,BOR_105
+BOR_105,Leimert Park,true,BOR_105
+BOR_105,Santa Monica,true,BOR_105
+BOR_105,Torrance,true,BOR_105
+BOR_105,inglewood,true,BOR_105
+BOR_105,West LA,true,BOR_105
+BOR_105,South Bay,true,BOR_105
+BOR_105,LAX,true,BOR_105
+BOR_105,Long Beach Airport,true,BOR_105
+BOR_105,USC / Coliseum,true,BOR_105
+BOR_109,Terminal 3,true,BOR_109
+BOR_109,Bellagio,true,BOR_109
+BOR_109,Circus Circus,true,BOR_109
+BOR_109,Planet Hollywood,true,BOR_109
+BOR_109,The Drew,true,BOR_109
+BOR_109,Park MGM,true,BOR_109
+BOR_109,Mirage,true,BOR_109
+BOR_109,Tropicana,true,BOR_109
+BOR_109,Terminal 1,true,BOR_109
+BOR_109,Paris,true,BOR_109
+BOR_109,Treasure Island,true,BOR_109
+BOR_109,MGM Grand,true,BOR_109
+BOR_109,Cosmopolitan,true,BOR_109
+BOR_109,City Center,true,BOR_109
+BOR_109,Fashion Show,true,BOR_109
+BOR_109,Harrah's,true,BOR_109
+BOR_109,Palazzo,true,BOR_109
+BOR_109,Las Vegas Stadium,true,BOR_109
+BOR_109,Mandalay Bay,true,BOR_109
+BOR_109,Luxor,true,BOR_109
+BOR_109,Resorts World,true,BOR_109
+BOR_109,New York- New York,true,BOR_109
+BOR_109,Excalibur,true,BOR_109
+BOR_109,Venetian,true,BOR_109
+BOR_109,Flamingo,true,BOR_109
+BOR_109,Wynn,true,BOR_109
+BOR_109,Freemont Street Experience,true,BOR_109
+BOR_109,Ceasars Palace,true,BOR_109
+BOR_109,Stratosphere,true,BOR_109
+BOR_110,O'Hare Int Airport,true,BOR_110
+BOR_110,Block 37,true,BOR_110
+BOR_111,333 Camden Street,true,BOR_111
+BOR_111,New York Ave,true,BOR_111
+BOR_102,Dodger Station,true,BOR_102
+BOR_102,Vermont / Sunset Station,true,BOR_102
+BOR_101,120th & Prairie,true,BOR_101
+BOR_101,Space X,true,BOR_101
+BOR_103,Vermont / Santa Monica Station,true,BOR_103
+BOR_106,Station 3,true,BOR_106
+BOR_106,Station 2,true,BOR_106
+BOR_106,Station 1,true,BOR_106
+BOR_104,Vermont / Beverly Station,true,BOR_104
+DGW_101,Nashik,true,DGW_101
+DGW_101,Ujjain,true,DGW_101
+DGW_101,Mumbai,true,DGW_101
+DGW_101,Gurugram,true,DGW_101
+DGW_101,Indore,true,DGW_101
+DGW_101,Kota,true,DGW_101
+DGW_101,New Delhi,true,DGW_101
+DGW_101,Jaipur,true,DGW_101
