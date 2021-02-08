@@ -3,6 +3,7 @@ const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const readline = require('readline')
 const username= 'loopguys'
 const accessToken= 'sk.eyJ1IjoibG9vcGd1eXMiLCJhIjoiY2syY3h2NXVwMjFnbDNibnA2cmZncGYzNCJ9.ANVYeZ4AK13dGPY9PHIqrw'
+const CSVToJSON = require('csvtojson');
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -41,28 +42,59 @@ const datasetIDs= [
     'cjut6xyy2byds2xqunfv31dpt',
 ]
 
-let routes = []
-let cities = {}
-let rows = []
+
+
+
 const main = async () => {
+  // let newStops;
+  // await CSVToJSON().fromFile('./newStops.csv')
+  //   .then(stops => {
+  //     newStops = stops;
+  // })
+    let featureList = []
+    let featureDict = {}
+    console.log()
     for (i in datasetIDs) {
         const dataset = await fetchDataset(username, accessToken, datasetIDs[i])
-        const features = dataset.features;
+        let features = dataset.features.map(feature => {
+          feature.properties.featureID = feature.properties.featureID && feature.properties.featureID.replace('HL1', 'VHO')
+          feature.properties.routeID = feature.properties.routeID && feature.properties.routeID.replace('HL1', 'VHO')
+          feature.properties.region = undefined
+          return feature
+        });
         const routes = features.filter(feature => feature.geometry.type === 'MultiLineString')
         const stops = features.filter(feature => feature.geometry.type === 'Point')
-        console.log(routes)
-        // for (j in features){
-            
-        //     if (features[j].geometry.type === 'LineString'){
-        //         console.log(features[j])
-        //         features[j].geometry.type = 'MultiLineString' 
-        //         features[j].geometry.coordinates = [features[j].geometry.coordinates]
-        //         if (!features[j].properties.routename)
-        //             features[j].properties.routename = features[j].properties.name
-        //         console.log(features[j].properties.routename)
-        //     }
+        stops.forEach(stop => {
+          const sameRoutePoints = stops.filter(s => s.properties.featureID.indexOf(stop.properties.routeID) > -1 && s.properties.featureID !== stop.properties.featureID).map(s => `${s.properties.featureID}, ${s.properties.name}`)
+          console.log(`${stop.properties.featureID}, ${stop.properties.name},`, sameRoutePoints.join(', '))
+        })
+        // for (featureID in features) {
+        //   if(features[featureID].geometry.type === 'Point' && features[featureID].properties.featureID.length <= 7)
+        //     console.log(features[featureID].properties.featureID, features[featureID].properties.name)
+        //   featureList.push(features[featureID])
+        //   if (!featureDict[features[featureID].properties.featureID])
+        //     featureDict[features[featureID].properties.featureID] = features[featureID];
+        //   else{
+        //     console.log(`Duplicate featureID ${features[featureID].properties.featureID}`)
+        //     console.log(featureDict[features[featureID].properties.featureID])
+        //   }
+
         // }
-        // await saveDataset(username, datasetIDs[i], accessToken, features)
+        
+        
+
+    // let updatedFeatures = []
+    // for (index in newStops){
+    //     const stop = newStops[index]
+    //     const matches = featureList.filter(feature => (feature.properties.routeID && stop.featureID.indexOf(feature.properties.routeID) > -1 && stop.name === feature.properties.name && feature.geometry.type === 'Point'))
+    //     if (matches && matches.length === 1) {
+    //       let feature = featureList.filter(feature => (feature.properties.routeID && stop.featureID.indexOf(feature.properties.routeID) > -1 && stop.name === feature.properties.name && feature.geometry.type === 'Point'))[0]
+    //       feature.properties.featureID = stop.featureID;
+    //       updatedFeatures.push(feature)
+    //     }
+    // }
+
+    // await saveDataset(username, datasetIDs[i], accessToken, features)
         
         // for (i in dataset.features){
         //     if (dataset.features[i].geometry.type !== 'Point'){
@@ -75,6 +107,9 @@ const main = async () => {
         //     }
         // }
     }
+
+    
+    // await saveDataset(username, datasetIDs[i], accessToken, features)
     // for (routeID in cities){
     //     for (i in cities[routeID]){
     //         let item = {
